@@ -1,0 +1,14 @@
+{
+  "name": "tpoint",
+  "module": "index.ts",
+  "workspaces": [
+    "packages/*"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
